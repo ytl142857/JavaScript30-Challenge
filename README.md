@@ -20,3 +20,7 @@ Fork project, Ready to begin!
 
 - [x] ~~05 - Flex Panel Gallery~~
 
+- [x] ~~06 - Type Ahead~~
+
+- fetch 使用
+- 正则表达式
