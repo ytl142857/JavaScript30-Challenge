@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Canvas</title>
+</head>
+
+<body>
+  <canvas id="draw" width="800" height="800"></canvas>
+  <script>
+    const canvas = document.getElementById('draw');
+
+    let ctx = canvas.getContext('2d');
+
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    let isDrawing = false;
+    let lastX = 0;
+    let lastY = 0;
+
+    ctx.lineWidth = 90;     // 线条宽度
+    ctx.lineCap = "round";  // 笔触形状  round | butt | square 圆,平,方
+    ctx.lineJoin = "round"; // 线条相交样式 round | bevel | miter 圆交,斜交,斜接
+    ctx.strokeStyle = "#f00"; // 线条描边颜色
+    ctx.fillStyle = "#f00";   // 填充颜色
+
+    let hue = 0;    // 色调
+    let direction = true;
+    let x = 0;
+    let y = 0;
+
+    function draw(e) {
+      if (!isDrawing) return;
+
+      x = e.offsetX;
+      y = e.offsetY;
+
+      // 彩虹
+      ctx.strokeStyle = `hsl(${hue}, 90%, 50%)`;
+      if (hue >= 360) hue = 0;
+      hue++;
+
+
+      // 控制笔触大小
+      if (ctx.lineWidth > 120 || ctx.lineWidth < 10) {
+        direction = !direction;
+      }
+      if (direction) {
+        ctx.lineWidth++;
+      } else {
+        ctx.lineWidth--;
+      }
+
+      // 控制绘制路径
+      ctx.beginPath();
+
+      ctx.moveTo(lastX, lastY);
+      ctx.lineTo(x, y);
+      ctx.stroke();
+
+      [lastX, lastY] = [x, y];
+
+    }
+    canvas.addEventListener('mousedown', (e) => {
+      isDrawing = true;
+      [lastX, lastY] = [e.offsetX, e.offsetY];
+    });
+
+    canvas.addEventListener('mousemove', draw);
+    canvas.addEventListener('mouseup', () => isDrawing = false);
+    canvas.addEventListener('mouseout', () => isDrawing = false);
+  </script>
+
+  <style>
+    html,
+    body {
+      margin: 0;
+    }
+
+    canvas {
+      border: 1px solid #000000;
+    }
+  </style>
+
+</body>
+
+</html>

@@ -34,9 +34,15 @@ Fork project, Ready to begin!
 
 
 - [x] ~~07 - Array Cardio Day 2~~
-
 - Array.prototype.some() 
 - Array.prototype.every()
 - Array.prototype.find()
 - Array.prototype.findIndex()
 - Array.prototype.slice()
+
+
+
+- [ ] 08 - Fun with HTML5 Canvas
+
+- canvas 使用
+- 未完成
