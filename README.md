@@ -43,6 +43,11 @@ Fork project, Ready to begin!
 
 
 - [ ] 08 - Fun with HTML5 Canvas
-
 - canvas 使用
 - 未完成
+
+
+
+- [x] ~~09 - Dev Tools Domination~~
+
+- console 的使用
