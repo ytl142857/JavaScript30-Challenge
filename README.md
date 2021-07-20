@@ -49,5 +49,11 @@ Fork project, Ready to begin!
 
 
 - [x] ~~09 - Dev Tools Domination~~
-
 - console 的使用
+
+
+
+- [ ] ~~10 - Hold Shift and Check Checkboxes~~
+
+- checkbox
+- 数组forEach
