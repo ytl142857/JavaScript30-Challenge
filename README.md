@@ -53,7 +53,18 @@ Fork project, Ready to begin!
 
 
 
-- [ ] ~~10 - Hold Shift and Check Checkboxes~~
+- [x] ~~10 - Hold Shift and Check Checkboxes~~
 
 - checkbox
 - 数组forEach
+
+
+
+- [ ] 11 - Custom Video Player
+
+
+
+- [x] 12 - Key Sequence Detection
+
+- 数组splice
+- addEventListener
