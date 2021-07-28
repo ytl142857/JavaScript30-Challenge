@@ -64,15 +64,21 @@ Fork project, Ready to begin!
 
 
 
-- [x] 12 - Key Sequence Detection
+- [x] ~~12 - Key Sequence Detection~~
 
 - 数组splice
 - addEventListener
 
 
 
-- [x] 13 - Slide in on Scroll
+- [x] ~~13 - Slide in on Scroll~~
 
 - scroll事件
 
 - CSS transform
+
+
+
+- [x] ~~14 - JavaScript References VS Copying~~
+
+- 引用与值拷贝
