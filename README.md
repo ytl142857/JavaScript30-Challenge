@@ -82,3 +82,11 @@ Fork project, Ready to begin!
 - [x] ~~14 - JavaScript References VS Copying~~
 
 - 引用与值拷贝
+
+
+
+## 21.08
+
+- [x] ~~15 - LocalStorage~~
+
+- window.localStorage
