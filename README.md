@@ -90,3 +90,7 @@ Fork project, Ready to begin!
 - [x] ~~15 - LocalStorage~~
 
 - window.localStorage
+
+
+
+- [x] ~~16 - Mouse Move Shadow~~
