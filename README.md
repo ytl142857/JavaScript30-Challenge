@@ -98,6 +98,11 @@ Fork project, Ready to begin!
 
 
 - [x] ~~17 - Sort Without Articles~~
-
 - 排序
 - 正则表达式
+
+
+
+- [x] ~~18 - Adding Up Times with Reduce~~
+
+- 函数式编程
