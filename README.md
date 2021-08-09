@@ -104,5 +104,10 @@ Fork project, Ready to begin!
 
 
 - [x] ~~18 - Adding Up Times with Reduce~~
-
 - 函数式编程
+
+
+
+- [ ] ~~22 - Follow Along Link Highlighter~~
+
+- Element.getBoundingClientRect()
