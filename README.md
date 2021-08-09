@@ -108,6 +108,11 @@ Fork project, Ready to begin!
 
 
 
-- [ ] ~~22 - Follow Along Link Highlighter~~
-
+- [x] ~~22 - Follow Along Link Highlighter~~
 - Element.getBoundingClientRect()
+
+
+
+- [x] ~~24 - Sticky Nav~~
+
+- 固定导航栏
