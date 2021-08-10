@@ -116,3 +116,14 @@ Fork project, Ready to begin!
 - [x] ~~24 - Sticky Nav~~
 
 - 固定导航栏
+
+
+
+- [x] ~~25 - Event Capture, Propagation, Bubbling and Once~~
+
+- 事件，事件option
+- capture, once
+
+
+
+- [x] ~~26 - Stripe Follow Along Nav~~
